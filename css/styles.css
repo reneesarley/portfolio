@@ -6,7 +6,7 @@ body{
   background-color: green;
 }
 
-.projects {
+.portfolio {
   background-color: green;
 }
 
@@ -16,6 +16,10 @@ body{
 
 .contact{
   background-color: green;
+}
+
+.projects {
+  background-color: orange;
 }
 
 h3 {
