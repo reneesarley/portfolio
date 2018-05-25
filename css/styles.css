@@ -93,6 +93,17 @@ h3{
   letter-spacing: 1.5px;
 }
 
+h4{
+  color: white;
+  font-family: sans-serif;
+  font-variant-caps: small-caps;
+  font-weight: lighter;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-bottom: 1.5px solid #656256;
+  letter-spacing: 1.5px;
+}
+
 .portfolio {
   margin-left: 2px;
   margin-right: 2px;
@@ -107,9 +118,9 @@ h3{
 }
 
 .project {
-  background-color: orange;
-  min-height: 100px;
-  border: 1px solid pink;
+  background-color: #656256;
+  min-height: 300px;
+  border: 1.5px solid rgba(255, 255, 255, .0);
   margin: -7px;
   margin-top: 10px;
 }
