@@ -150,8 +150,14 @@ h4{
   margin-top: 10px;
 }
 
-.bio, .skills{
-
+.bio p{
+  margin-left: 5%;
+  margin-left: 5%;
+  text-align: center;
+  color: #656256;
+  border-right: .25px solid #656256;
+  padding-right: 5px;
+  margin-bottom: -30px;
 }
 
 h5{
@@ -171,7 +177,10 @@ ol{
 .background li{
   color:#656256;
   font-variant: normal;
-  font-size: .75em;
+  font-size: 1em;
+}
+.background ul{
+margin-top: -10px;
 }
 
 .contactHead{
