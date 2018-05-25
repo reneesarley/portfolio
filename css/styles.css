@@ -1,3 +1,23 @@
 body{
   background-color: pink;
 }
+
+.header{
+  background-color: green;
+}
+
+.projects {
+  background-color: green;
+}
+
+.aboutMe{
+  background-color: green;
+}
+
+.contact{
+  background-color: green;
+}
+
+h3 {
+  color:purple;
+}
