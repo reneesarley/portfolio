@@ -119,10 +119,24 @@ h4{
 
 .aboutMe{
   background-color: green;
+  color: #656256;
 }
 
-.contact{
-  background-color: green;
+.background{
+  border: 2px solid pink;
+}
+
+.contact h4{
+  color:#656256;
+  border: none;
+}
+
+.contact p a, p{
+  color: #6b7851;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.25em;
 }
 
 .project {
