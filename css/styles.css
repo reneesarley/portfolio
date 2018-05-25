@@ -106,7 +106,6 @@ h4{
   width: 50%;
   margin: 0 auto;
   margin-top: 35px;
-  border-bottom: 1.5px solid #656256;
   letter-spacing: 8px;
   text-align: center;
 }
@@ -117,26 +116,46 @@ h4{
   margin-right: 2px;
 }
 
-.aboutMe{
-  background-color: green;
+.background, .interests{
   color: #656256;
+  background-color: #6b7851;
+  float: left;
+  margin-bottom: 50px;
 }
 
 .background{
-  border: 2px solid pink;
+  width: 65%;
+  margin-right:.5%;
+  margin-left: 1%;
 }
 
-.contact {
- border-bottom: 10px solid #656256;
- padding-bottom: 30px;
+.interests{
+  width: 32%;
+  margin-right:1%;
+  margin-left: .5%;
 }
+
+.background h4, .interests h4{
+  color: white;
+  background-color: #6b7851;
+  margin-top: 3px;
+  padding-bottom:2px;
+}
+
+.contactHead{
+  clear: left;
+}
+.contact {
+   border-bottom: 10px solid #656256;
+   padding-bottom: 30px;
+  }
 .contactinfo {
-margin-top: 2px;
+  margin-top: 2px;
 }
 .contact h4{
   color:#656256;
   border: none;
-  margin-top: 0;
+  margin-top: 20px;
 }
 
 .contact p a, .contact p{
@@ -180,5 +199,5 @@ margin-top: 2px;
 }
 
 .row{
-  margin-bottom: 45px;
+  margin-bottom: 60px;
 }
