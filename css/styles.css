@@ -137,17 +137,20 @@ h4{
 .project p{
   letter-spacing: 1.75px;
   margin-top: 15px;
-  margin-left: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
   color: white;
 }
 
 .gitLink a{
-  color: #8acb88;
+  color: #a7BC7E;
   margin-top:5px;
 }
 .techUsed{
   position: absolute;
   bottom: 0px;
+  font-size: .75em;
+  letter-spacing: normal;
 }
 
 .row{
