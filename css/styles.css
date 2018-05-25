@@ -129,6 +129,7 @@ h4{
   width: 65%;
   margin-right:.5%;
   margin-left: 1%;
+  color: #6b7851;
 }
 
 .interests{
@@ -147,12 +148,32 @@ h4{
 
 .background p, .interests p{
   margin-top: 10px;
-  
+}
+
+.bio, .skills{
+
+}
+
+h5{
+  color: #656256;
+  font-variant-caps: small-caps;
+  font-size: 1.25em;
+}
+
+.interests h5, .interests ol{
+  margin-left: 20%;
 }
 
 ol{
   margin-top: -10px;
 }
+
+.background li{
+  color:#656256;
+  font-variant: normal;
+  font-size: .75em;
+}
+
 .contactHead{
   clear: left;
 }
