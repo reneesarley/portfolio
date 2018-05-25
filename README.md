@@ -1,6 +1,6 @@
-#Personal Portfolio Site
+# _Personal Portfolio Site_
 
-####A Website to display the web development projects, 05.25.2018
+#### _A Website to display the web development projects, 05.25.2018_
 
 #### By _**Renee Sarley**_
 
