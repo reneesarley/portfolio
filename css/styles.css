@@ -72,8 +72,12 @@ h4{
   padding-top: 5px;
 }
 
-.caption li a{
-  color: white;
+a{
+  color: white;;
+}
+
+a:hover {
+  color:white;
   text-decoration: none;
 }
 
@@ -98,10 +102,14 @@ h4{
   font-family: sans-serif;
   font-variant-caps: small-caps;
   font-weight: lighter;
-  margin-left: 10px;
-  margin-right: 10px;
+  font-size: 1.5em;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 35px;
   border-bottom: 1.5px solid #656256;
-  letter-spacing: 1.5px;
+  letter-spacing: 8px;
+  text-align: center;
+
 }
 
 .portfolio {
