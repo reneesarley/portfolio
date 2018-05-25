@@ -84,7 +84,9 @@ h4{
 }
 
 .portfolio {
-  background-color: green;
+  margin-left: 2px;
+  margin-right: 2px;
+  border-top: 2px solid green;
 }
 
 .aboutMe{
@@ -95,9 +97,13 @@ h4{
   background-color: green;
 }
 
-.projects {
+
+.project {
   background-color: orange;
   min-height: 100px;
+  border: 1px solid pink;
+  margin: -7px;
+  margin-top: 10px;
 }
 
 .row{
