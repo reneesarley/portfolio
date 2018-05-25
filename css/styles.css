@@ -109,8 +109,8 @@ h4{
   border-bottom: 1.5px solid #656256;
   letter-spacing: 8px;
   text-align: center;
-
 }
+
 
 .portfolio {
   margin-left: 2px;
@@ -131,6 +131,23 @@ h4{
   border: 1.5px solid rgba(255, 255, 255, .0);
   margin: -7px;
   margin-top: 10px;
+  text-align: center;
+}
+
+.project p{
+  letter-spacing: 1.75px;
+  margin-top: 15px;
+  margin-left: 5px;
+  color: white;
+}
+
+.gitLink a{
+  color: #8acb88;
+  margin-top:5px;
+}
+.techUsed{
+  position: absolute;
+  bottom: 0px;
 }
 
 .row{
