@@ -10,7 +10,7 @@ This website displays provides links to projects that I have completed during we
 
 ## Setup/Installation Requirements
 
-*To view in browser visit this link:
+*To view in browser visit this link: https://reneesarley.github.io/portfolio/
 *To view GitHub repo visit this link: https://github.com/reneesarley/portfolio
 
 
