@@ -83,10 +83,19 @@ h4{
   padding-top: 5px;
 }
 
+h3{
+  color: #656256;
+  font-family: sans-serif;
+  font-variant-caps: small-caps;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-bottom: 1.5px solid #656256;
+  letter-spacing: 1.5px;
+}
+
 .portfolio {
   margin-left: 2px;
   margin-right: 2px;
-  border-top: 2px solid green;
 }
 
 .aboutMe{
@@ -96,7 +105,6 @@ h4{
 .contact{
   background-color: green;
 }
-
 
 .project {
   background-color: orange;
