@@ -126,17 +126,29 @@ h4{
   border: 2px solid pink;
 }
 
+.contact {
+ border-bottom: 10px solid #656256;
+ padding-bottom: 30px;
+}
+.contactinfo {
+margin-top: 2px;
+}
 .contact h4{
   color:#656256;
   border: none;
+  margin-top: 0;
 }
 
-.contact p a, p{
+.contact p a, .contact p{
   color: #6b7851;
   text-align: center;
   text-decoration: none;
   font-weight: bold;
   font-size: 1.25em;
+}
+
+.phone{
+  font-size: 1.5em;
 }
 
 .project {
