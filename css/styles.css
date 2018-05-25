@@ -4,6 +4,8 @@ body{
 
 .header{
   background-color: green;
+  text-align: center;
+  border-radius: 0px;
 }
 
 .portfolio {
