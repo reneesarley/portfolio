@@ -118,9 +118,11 @@ h4{
 
 .background, .interests{
   color: #656256;
-  background-color: #6b7851;
+  background-color: #white;
   float: left;
   margin-bottom: 50px;
+  border-bottom: 10px solid #6b7851;
+  min-height: 200px;
 }
 
 .background{
@@ -140,8 +142,17 @@ h4{
   background-color: #6b7851;
   margin-top: 3px;
   padding-bottom:2px;
+  width: 100%;
 }
 
+.background p, .interests p{
+  margin-top: 10px;
+  
+}
+
+ol{
+  margin-top: -10px;
+}
 .contactHead{
   clear: left;
 }
