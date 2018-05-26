@@ -25,6 +25,7 @@ body{
   margin-bottom: 45px;
   padding:0;
   transition: none;
+  text-shadow: .2em .2em .25em #656256;
 }
 
 .caption h1, h2, ul {
@@ -67,7 +68,6 @@ body{
   font-size: 1em;
   letter-spacing: .2em;
 }
-
 
 a{
   color: white;;
