@@ -13,9 +13,6 @@ body{
 }
 
 #headerVid {
-    position: fixed;
-    right: 0;
-    bottom: 0;
     min-width: 100%;
     min-height: 100%;
     background-color: pink;
@@ -23,7 +20,7 @@ body{
 
 .caption {
   width:100%;
-  bottom: 15rem;
+  top: 15rem;
   position: absolute;
 }
 
