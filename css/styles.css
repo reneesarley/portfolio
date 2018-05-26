@@ -12,14 +12,6 @@ body{
   margin-bottom: 5px;
 }
 
-h3 {
-  color:purple;
-}
-
-h4{
-  color:black;
-}
-
 .caption {
   width:100%;
   bottom: 15rem;
@@ -41,11 +33,11 @@ h4{
   font-variant-caps: small-caps;
   margin:0;
   padding:0;
-  -webkit-font-smoothing: antialiased;
+
 }
 
 .caption h1{
-  font-size: 5em;
+  font-size: 6em;
   margin: -18px;
   padding: 0px;
 }
