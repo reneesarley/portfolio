@@ -40,22 +40,24 @@ body{
   font-size: 6em;
   margin: -18px;
   padding: 0px;
-}
-
-.caption h2{
-  letter-spacing: .5px;
-  word-spacing:3px;
-  margin-top: 2px;
+  letter-spacing: .13em;
 }
 
 #firstname{
   margin-bottom: -25px;
-  letter-spacing: 5.5px;
+  letter-spacing: .22em;
+}
+
+.caption h2{
+  letter-spacing: .25em;
+  word-spacing:3px;
+  margin-top: 2px;
 }
 
 .caption ul{
   margin-top: 10px;
 }
+
 .caption li {
   display: inline;
   margin: .3em;
