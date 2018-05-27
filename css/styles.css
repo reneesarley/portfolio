@@ -78,6 +78,8 @@ body{
       position: fixed;
       top:0;
       width:100%;
+      background-color: pink;
+      z-index: 1;
 }
 
 .caption ul{
@@ -100,6 +102,7 @@ body{
     top:35px;
     width:100%;
     background-color: orange;
+    z-index: 2;
 }
 
 a{
