@@ -24,7 +24,7 @@ function myFunction() {
   {logo.classList.remove("stickylogo");
   }
 
-//nav  
+//nav
   if (window.pageYOffset >= stickynav -(logo.offsetHeight + navheight))
   {nav.classList.add("stickynav");}
   else

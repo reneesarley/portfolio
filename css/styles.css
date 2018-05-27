@@ -47,11 +47,14 @@ body{
   margin: -18px;
   padding: 0px;
   letter-spacing: .13em;
+  line-height: .75em;
+  margin-bottom:.1em;
 }
 
 #firstname{
   margin-bottom: -25px;
   letter-spacing: .22em;
+
 }
 
 .caption h2{
