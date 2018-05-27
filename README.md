@@ -16,7 +16,7 @@ This website displays provides links to projects that I have completed during we
 
 ## Known Bugs
 
-There are no known bugs at this time.
+The header disappears after scrolling down and then scrolling up. 
 
 ## Support and contact details
 
