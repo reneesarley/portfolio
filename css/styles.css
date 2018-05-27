@@ -10,6 +10,10 @@ body{
   margin: 0px:
   margin-bottom: 5px;
   height: 100%;
+  color: #fff;
+  font-family: sans-serif;
+  font-variant-caps: small-caps;
+  background-color: pink;
 }
 
 #headerVid {
@@ -17,46 +21,46 @@ body{
     min-height: 100%;
 }
 
-.caption {
-  width:100%;
-  bottom 50%;
-  position: absolute;
-}
-
-.thumbnail {
-  border: 0 none;
-  box-shadow: none;
-  margin:0;
-  margin-bottom: 45px;
-  padding:0;
-  transition: none;
-  text-shadow: -.2em .2em .25em #656256;
-}
-
-.caption h1, h2, ul {
+h1, h2 {
   color: #fff;
   font-family: sans-serif;
   font-variant-caps: small-caps;
   margin:0;
   padding:0;
-
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.caption h1{
+#buttons {
+  color: #fff;
+  font-family: sans-serif;
+  font-variant-caps: small-caps;
+  padding:0;
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+  top: 40%;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+#homelogo{
   font-size: 6em;
-  margin: -18px;
   padding: 0px;
   letter-spacing: .13em;
   line-height: .75em;
   margin-bottom:.1em;
+  width:100%;
+  top: 10%;
+  position: absolute;
+  z-index: 1;
 }
 
-#homelogo{
+#buttons{
 
-}
-
-.buttons{
-  background-color:pink;
 }
 
 #firstname{
@@ -65,10 +69,21 @@ body{
 
 }
 
-.caption h2{
+h2{
   letter-spacing: .25em;
   word-spacing:3px;
   margin-top: 2px;
+  position: absolute;
+  top: 30%;
+}
+
+.header li {
+  display: inline;
+  border: 1px solid rgba(255, 255, 255, .0);
+  padding: 7px;
+  padding-top: 5px;
+  font-size: 1em;
+  letter-spacing: .2em;
 }
 
 .stickylogo{
@@ -78,30 +93,15 @@ body{
       position: fixed;
       top:0;
       width:100%;
-      background-color: pink;
       z-index: 1;
 }
 
-.caption ul{
-  margin-top: 10px;
-}
-
-.caption li {
-  display: inline;
-  margin: .3em;
-  border: 1px solid rgba(255, 255, 255, .0);
-  padding: 7px;
-  padding-top: 5px;
-  font-size: 1em;
-  letter-spacing: .2em;
-}
 
 .stickynav{
     float:none;
     position: fixed;
     top:35px;
     width:100%;
-    background-color: orange;
     z-index: 2;
 }
 
@@ -114,7 +114,7 @@ a:hover {
   text-decoration: none;
 }
 
-.caption li:hover{
+.header li:hover{
   border: 1px solid white;
   padding: 7px;
   padding-top: 5px;
