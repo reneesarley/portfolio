@@ -58,7 +58,7 @@ h1, h2 {
   text-align: center;
   margin-bottom:.1em;
   width:100%;
-  top: 30%;
+  top: 22%;
   position: absolute;
   z-index: 1;
   color: rgb(255, 255, 255, .2);
@@ -67,8 +67,8 @@ h1, h2 {
 
 #firstname{
   letter-spacing: .268em;
-  top: 22%;
 }
+
 .letter{
   letter-spacing: 0;
 }

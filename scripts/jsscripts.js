@@ -15,8 +15,7 @@ window.onscroll = function() {myFunction()};
 // Add the sticky class to the header and nav when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function myFunction() {
 //logo
-  alert(headerPosition);
-  if (window.pageYOffset >= sticky){
+if (window.pageYOffset >= (sticky + headerPosition)){
     logo.classList.add("stickylogo");
    // window.alert(logoheight);
   }
