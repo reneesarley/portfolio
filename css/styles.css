@@ -66,19 +66,18 @@ h1, h2 {
 }
 
 #firstname{
-  margin-bottom: -25px;
-  letter-spacing: .26em;
-  top: 20%;
+  letter-spacing: .268em;
+  top: 22%;
 }
 .letter{
   letter-spacing: 0;
 }
 
 h2{
-  letter-spacing: .25em;
+  letter-spacing: .36em;
   word-spacing:3px;
   position: absolute;
-  top: 37%;
+  top: 38.5%;
 }
 
 .header li {
