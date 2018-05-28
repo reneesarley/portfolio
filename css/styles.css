@@ -65,6 +65,23 @@ h1, h2 {
   -webkit-text-stroke: 1.25px white;
 }
 
+
+#homelogo.homePosition{
+  background-color: blue;
+  top: 22%;
+}
+
+#homelogo.stickylogo{
+  clear: both;
+  height: 42px;
+  float:none;
+  position: fixed;
+  top:0;
+  width:100%;
+  z-index: 1;
+  background-color: rgb(255, 255, 255, .2);
+}
+
 #firstname{
   letter-spacing: .268em;
 }
@@ -99,16 +116,6 @@ h2{
   background-color: rgb(255, 255, 255, .2);
 }
 
-.stickylogo{
-  clear: both;
-  height: 42px;
-  float:none;
-  position: fixed;
-  top:0;
-  width:100%;
-  z-index: 1;
-  background-color: rgb(255, 255, 255, .2);
-}
 
 
 .stickynav{

@@ -16,9 +16,9 @@ window.onscroll = function() {myFunction()};
 function myFunction() {
 //logo;
 if (window.pageYOffset >= (sticky + headerPosition)){
-    logo.classList.add("stickylogo");
-   // window.alert(logoheight);
+  logo.classList.add("stickylogo");
   }
+  
   else
   {logo.classList.remove("stickylogo");
   }
