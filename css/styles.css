@@ -42,7 +42,7 @@ h1, h2 {
   width: 100%;
   z-index: 1;
   position: absolute;
-  top: 42%;
+  top: 43%;
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
@@ -74,19 +74,24 @@ h1, h2 {
 }
 
 h2{
-  letter-spacing: .36em;
+  letter-spacing: .345em;
   word-spacing:3px;
   position: absolute;
-  top: 38.5%;
+  top: 39%;
 }
 
 .header li {
   display: inline;
   border: 1px solid rgba(255, 255, 255, .0);
-  padding: 7px;
+  padding: 22px;
   padding-top: 5px;
   font-size: 1em;
   letter-spacing: .2em;
+}
+
+.header li:hover{
+  border: 1px solid white;
+  background-color: rgb(255, 255, 255, .2);
 }
 
 
@@ -118,11 +123,7 @@ a:hover {
   text-decoration: none;
 }
 
-.header li:hover{
-  border: 1px solid white;
-  padding: 7px;
-  padding-top: 5px;
-}
+
 
 h3{
   color: #656256;
