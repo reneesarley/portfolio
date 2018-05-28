@@ -83,10 +83,15 @@ h2{
 .header li {
   display: inline;
   border: 1px solid rgba(255, 255, 255, .0);
-  padding: 22px;
+  padding: 15px;
   padding-top: 5px;
+  padding-bottom: 5px;
   font-size: 1em;
   letter-spacing: .2em;
+}
+#centerButton{
+  padding-left: 22px;
+  padding-right: 22px;
 }
 
 .header li:hover{
