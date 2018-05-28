@@ -14,7 +14,8 @@
     <div class="col-md-12 header">
       <video autoplay muted loop class="img-reponsive" id="headerVid"> <source src="img/treeVid5sec.mp4" type= "video/mp4"></video>
       <!--<img class="img-reponsive" src="img/treelandscape.jpg" alt="leaves on tree" height="756" width="2016">-->
-      <h1 id="homelogo"> <span id="firstname">rene<span class="letter">e</span></span><br>sarley</h1>
+      <h1 class="homelogo" id="firstname">rene<span class="letter">e</span></h1>
+      <h1 class="homelogo">sarley</h1>
       <h2>web developer</h2>
       <ul id="buttons">
         <li> <a href="#projectsHead">portfolio</a></li>
