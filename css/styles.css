@@ -1,18 +1,16 @@
 body{
   background-color: white;
-  padding-top: 1px;
 }
 
 .header{
   text-align: center;
   border-radius: 0px;
   padding: 0px;
-  margin: 0px:
+  margin: 0px;
   height: 100%;
   color: #fff;
   font-family: sans-serif;
   font-variant-caps: small-caps;
-  background-color: pink;
 }
 
 #headerVid {
@@ -55,6 +53,7 @@ h1, h2 {
   padding: 0px;
   letter-spacing: .13em;
   line-height: .6em;
+  height: 100%;
   text-align: center;
   margin-bottom:.1em;
   width:100%;
@@ -67,7 +66,6 @@ h1, h2 {
 
 
 #homelogo.homePosition{
-  background-color: blue;
   top: 22%;
 }
 
@@ -115,8 +113,6 @@ h2{
   border: 1px solid white;
   background-color: rgb(255, 255, 255, .2);
 }
-
-
 
 .stickynav{
   float:none;
