@@ -2,20 +2,20 @@
 window.onscroll = function() {myFunction()};
 
 // get elements
-  var logo = document.getElementById("homelogo");
+  var logo = document.getElementById("firstname");
   var nav = document.getElementById("buttons");
+  var header = document.getElementById("header");
 
 // Get the offset position of the logo and nav
   var sticky = logo.offsetTop;
   var stickynav = nav.offsetTop;
   var navheight = nav.offsetHeight;
-
-
-
+  var headerPosition = header.offsetTop;
 
 // Add the sticky class to the header and nav when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function myFunction() {
 //logo
+  alert(headerPosition);
   if (window.pageYOffset >= sticky){
     logo.classList.add("stickylogo");
    // window.alert(logoheight);
