@@ -1,5 +1,5 @@
 // When the user scrolls the page, execute myFunction
-window.onscroll = function() {myFunction()};
+window.onscroll = function() {TopNav()};
 
 // get elements
   var logo = document.getElementById("homelogo");
@@ -15,7 +15,7 @@ window.onscroll = function() {myFunction()};
   var headerPosition = header.offsetTop;
 
 // Add the sticky class to the header and nav when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
+function TopNav() {
 //logo;
  //window.alert(sticky);
 if (window.pageYOffset >= (sticky * 2)){
