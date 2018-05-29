@@ -70,13 +70,15 @@ h1, h2 {
 }
 
 #homelogo.stickylogo{
-  font-size: 5em;
-  height: 42px;
+  font-size: 3em;
+  -webkit-text-stroke: .35px white;
   position: fixed;
   top:0;
-  width:100%;
+  left:0;
   z-index: 1;
-  background-color: rgb(255, 255, 255, .2);
+  color: rgb(255, 255, 255, .35);
+  height: 20px;
+  max-width: 50%;
 }
 
 #firstname{
