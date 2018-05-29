@@ -271,6 +271,11 @@ margin-top: -10px;
   font-size: 1.5em;
 }
 
+.projects{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .project {
   background-color: #656256;
   min-height: 300px;
