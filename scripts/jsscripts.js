@@ -5,7 +5,7 @@ window.onscroll = function() {TopNav()};
   var logo = document.getElementById("homelogo");
   var nav = document.getElementById("buttons");
   var header = document.getElementById("header");
-  var vid= document.getElementById("headerVid")
+  var nameText =document.getElementById("homelogo").innerHTML;
 
 // Get the offset position of the logo and nav
   var sticky = logo.offsetTop;
@@ -19,11 +19,13 @@ function TopNav() {
 //logo;
 if (window.pageYOffset >= (sticky * 2)){
   logo.classList.add("stickylogo")
-  logo.innerHTML = " test";
+  logo.innerHTML = "renee sarley";
   }
 
   else
-  {logo.classList.remove("stickylogo");
+  {
+    logo.classList.remove("stickylogo")
+    logo.innerHTML = nameText;
   }
 
 //nav
