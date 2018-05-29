@@ -8,6 +8,7 @@ body{
   border-radius: 0px;
   padding: 0px;
   margin: 0px;
+  margin-bottom: -5px;
   height: 100%;
   color: #fff;
   font-family: sans-serif;
@@ -41,7 +42,7 @@ h1, h2 {
   width: 100%;
   z-index: 1;
   position: absolute;
-  top: 43%;
+  top: 46%;
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
@@ -54,31 +55,28 @@ h1, h2 {
   padding: 0px;
   letter-spacing: .13em;
   line-height: .6em;
-  height: 100%;
   text-align: center;
   margin-bottom:.1em;
   width:100%;
-  top: 22%;
   position: absolute;
   z-index: 1;
-  color: rgb(255, 255, 255, .2);
-  -webkit-text-stroke: 1.25px white;
+  color: rgb(255, 255, 255, .65);
+  /*-webkit-text-stroke: 1.25px white;*/
 }
 
 
 #homelogo.homePosition{
-  top: 22%;
+  top: 26%;
 }
 
 #homelogo.stickylogo{
   text-align: left;
   font-size: 3em;
-  -webkit-text-stroke: .35px white;
   position: fixed;
   top:0;
   left:0;
   z-index: 1;
-  color: rgb(255, 255, 255, .35);
+  color: rgb(255, 255, 255, .65);
   height: 20px;
   max-width: 50%;
   margin-left: 10px;
@@ -96,7 +94,7 @@ h2{
   letter-spacing: .345em;
   word-spacing:3px;
   position: absolute;
-  top: 39%;
+  top: 42%;
 }
 
 .header li {
@@ -144,13 +142,19 @@ a:hover {
 
 
 h3{
-  color: #656256;
+  text-align: center;
+  color: white;
   font-family: sans-serif;
   font-variant-caps: small-caps;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0x;
   border-bottom: 1.5px solid #656256;
   letter-spacing: 1.5px;
+  float: left;
+  width: 100%;
+  background-color: #656256;
+  height: 45px;
 }
 
 h4{
@@ -297,4 +301,5 @@ margin-top: -10px;
 
 .row{
   margin-bottom: 60px;
+  padding-top: 45px;
 }
