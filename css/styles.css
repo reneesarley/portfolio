@@ -119,13 +119,18 @@ h2{
 }
 
 #buttons.stickynav{
-  float:none;
   position: fixed;
-  top:35px;
-  width:100%;
+  top:0;
+  right: 0;
+  width:50%;
   z-index: 2;
-  background-color: pink;
+  margin-top: 2px;
 }
+
+#buttons.stickynav li{
+float: right;
+}
+
 
 a{
   color: white;;

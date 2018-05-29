@@ -30,7 +30,7 @@ if (window.pageYOffset >= (sticky * 1.5)){
   }
 
 //nav
-  if (window.pageYOffset >= ((sticky + 1.5)+ stickynav))
+  if (window.pageYOffset >= ((sticky + navheight * 1.5) + navheight))
   {nav.classList.add("stickynav");}
   else
   {nav.classList.remove("stickynav");}
