@@ -70,9 +70,8 @@ h1, h2 {
 }
 
 #homelogo.stickylogo{
-  clear: both;
+  font-size: 5em;
   height: 42px;
-  float:none;
   position: fixed;
   top:0;
   width:100%;
