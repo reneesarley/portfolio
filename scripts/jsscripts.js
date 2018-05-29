@@ -9,15 +9,16 @@ window.onscroll = function() {TopNav()};
 
 // Get the offset position of the logo and nav
   var sticky = logo.offsetTop;
-  var vidTop =  vid.offsetTop;
   var stickynav = nav.offsetTop;
+
+  //get heights of header elements
+  var logoheight = logo.offsetHeight;
   var navheight = nav.offsetHeight;
-  var headerPosition = header.offsetTop;
 
 // Add the sticky class to the header and nav when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function TopNav() {
 //logo;
-if (window.pageYOffset >= (sticky * 2)){
+if (window.pageYOffset >= (sticky * 1.5)){
   logo.classList.add("stickylogo")
   logo.innerHTML = "renee sarley";
   }
@@ -29,7 +30,7 @@ if (window.pageYOffset >= (sticky * 2)){
   }
 
 //nav
-  if (window.pageYOffset >= stickynav -(logo.offsetHeight + navheight))
+  if (window.pageYOffset >= ((sticky + 1.5)+ stickynav))
   {nav.classList.add("stickynav");}
   else
   {nav.classList.remove("stickynav");}
